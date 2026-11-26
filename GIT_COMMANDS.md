@@ -1,4 +1,14 @@
+#initial setup
+# Remove old local username and email
+git config --local --unset user.name
+git config --local --unset user.email
+
+# Set your own username and email
+git config --local user.name "YOUR NAME"
+git config --local user.email "YOUR GITHUB EMAIL"
 # GIT COMMANDS – SOFTWARE ENGINEERING LAB
+git remote -v
+git remote set-url origin https://github.com/YOUR-USERNAME/SE_Project.git
 
 ## 1. Git Configuration
 
